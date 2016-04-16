@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="345c5b37-99a3-4eb8-b2ea-9c29d21f037a" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ConsultaDemo.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ConsultaDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9964578cadab9505" Namespace="ConsultaDemo.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ConsultaDemo\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ConsultaDemo_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
